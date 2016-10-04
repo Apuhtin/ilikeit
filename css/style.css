@@ -1,0 +1,1319 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: #ffffff;
+    /*height: auto;*/
+    /*border: 1px red dashed;*/   
+    box-sizing: border-box;      
+    font-family:Arial, Helvetica;    
+    font-size: 16px;
+}
+
+a{ 
+    outline-style: none; /* Убираем границу вокруг ссылок */
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    border: none;
+    color: #1557a1;
+}
+
+a:hover {
+    /*text-decoration: underline;*/
+    color: red;
+}
+
+label[for=cboxInput]{
+    color: #1557a1;
+    cursor:pointer;
+   
+}
+label[for=cboxInput]:hover {
+    color: red;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    float: left;
+}
+
+.LiInput {
+    margin: 0;
+    list-style-type: none; /* Убираем маркеры */
+    float: none;  
+    padding: 4px 5px 2px 5px;
+    font-size: 0.8em;
+    text-align: center;
+    
+}
+
+.LiInput a {  
+    text-decoration: none;
+    color: #000092;
+}
+.LiInput a:hover {
+    color: red;
+    /*text-decoration: underline;*/  
+}
+
+
+hr{
+    /*clear:both;*/ 
+    border: 0;
+    height: 1px;
+    background: #cccccc;
+/*    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);  */
+}
+
+input{
+    /*padding:15px 15px 15px 30px;*/
+    padding: 0 15px 0 15px;
+    height: 36px;
+    margin: 0 0 0 15px;
+/*    width:353px;*/
+    border:1px solid #999999;
+    /*-moz-border-radius:5px;*/
+/*    -webkit-border-radius:3px;
+    border-radius:3px;*/
+/*    -moz-box-shadow:0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow:0 1px 1px #ccc inset, 0 1px 0 #fff;
+    box-shadow:0 1px 1px #ccc inset, 0 1px 0 #fff;*/
+    font-family:Arial, Helvetica;
+    font-size: 16px;
+}
+
+input:hover {
+    border:1px solid #000;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+} 
+
+
+input:focus {
+  /*background-color:#FFEA00;*/
+/*  border-color:#e8c291;
+  outline:none;
+  -moz-box-shadow:0 0 0 1px #e8c291 inset;
+  -webkit-box-shadow:0 0 0 1px #e8c291 inset;
+  box-shadow:0 0 0 1px #e8c291 inset;*/
+}
+
+
+.ButtonInput {
+    padding: 0 15px 0 15px;
+    height: 36px;
+    margin: 6px 0 0 15px;
+    border:1px solid #000;
+    font-family:Arial, Helvetica;
+    font-size: 16px;    
+}
+.ButtonInput:hover {
+    background: #dcdcdc;
+    border:1px solid #000;
+}
+
+#ButtonSearch{
+    width: 36px;
+    margin: 6px 0 0 0;
+    padding: 0 15px 0 15px;
+    height: 36px;
+    border:1px solid #999999;
+    
+    background: url(../images/search-glass1.png) no-repeat center center;  
+    background-size: contain;    
+    text-indent: -1000em;
+    font-family:Arial, Helvetica;
+    font-size: 16px;    
+}
+#ButtonSearch:hover {
+   
+    background: url(../images/search-glass.png) no-repeat center center;  
+    background-size: contain; 
+    /*background: #dcdcdc;*/
+    border:1px solid #000;
+    cursor: pointer;
+}
+
+#ButtonLang {
+    float: right;
+    width: 36px;
+    height: 36px;
+    
+    margin: 6px 0px 0px 5px;
+    padding: 1px 0px 0px 0px;
+    
+    /*border:1px solid #999999;*/
+    
+/*    background: url(../images/search-glass1.png) no-repeat center center;  
+    background-size: contain;    */
+    /*text-indent: -1000em;*/
+    
+    font-family:Arial, Helvetica;
+    font-size: 16px;   
+    text-align: center;
+    display: block;
+}
+
+#ButtonLang:hover {
+    /*border:1px solid #000;*/
+    cursor: pointer;
+}
+
+
+.ButtonPlus{
+    
+    float: right;
+    width: 32px;
+    height: 32px;
+    /*margin: 6px 0 0 0;*/
+    /*padding: 0 15px 0 15px;*/
+    
+    /*border:1px solid #000;*/
+    border: none;
+    background: url(../images/check-box3.png) no-repeat center center;  
+    background-size: contain;    
+    text-indent: -1000em;
+    /*font-family:Arial, Helvetica;*/
+    /*font-size: 16px;*/    
+}
+
+.ButtonPlus:hover {
+   
+    background: url(../images/check-box4.png) no-repeat center center;  
+    background-size: contain; 
+    border: none;
+    /*background: #dcdcdc;*/
+    /*border:1px solid #000;*/
+    cursor: pointer;
+}
+
+
+.DivPlus{
+    
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    /*padding: 0 15px 0 15px;*/
+    
+    /*border:1px solid #000;*/
+    border: none;
+    background: url(../images/check-box4.png) no-repeat center center;  
+    background-size: contain;    
+    text-indent: -1000em;
+    /*font-family:Arial, Helvetica;*/
+    /*font-size: 16px;*/    
+}
+.DivMinus{
+    
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    /*padding: 0 15px 0 15px;*/
+    
+    /*border:1px solid #000;*/
+    border: none;
+    background: url(../images/check-box3.png) no-repeat center center;  
+    background-size: contain;    
+    text-indent: -1000em;
+    /*font-family:Arial, Helvetica;*/
+    /*font-size: 16px;*/    
+}
+
+
+.InexDiv100 {
+    margin: 5px 0px 5px 0px;
+    float: left;  
+    width: 854px;
+    /*border: 1px #999999 solid;*/
+}
+/*.divHr{  
+    margin: 5px 0px 0px 0px;
+    float: left;
+    height:5px;
+    width: 100%; 
+}*/
+
+/*
+@font-face {
+    font-family: 'Obelix';  font name 
+    src: url('/fonts/Obelix.ttf');  URL to font 
+}
+
+
+
+iframe {
+	max-width: 100%;
+	float: left;
+}
+
+a, *:hover {
+	text-decoration: none;
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+body {
+	background-color: #ececee;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+ -------------------------------
+Выделение текста
+----------------------------------
+
+::selection {background: #6accd7; color: #fff;}
+::-moz-selection {background: #6accd7; color: #fff}
+
+ -------------------------------
+Шапка сайта
+----------------------------------*/
+
+#DivSettings {
+    margin: 0px;
+    float: left;
+    /*padding: 0% 1% 0% 0%;*/
+}
+
+#ImgSettings {   
+    /*width: 32px;*/
+    height: 48px;   
+}
+
+#DivLogotip {
+    float: left;
+    border: none;
+    height: 48px;
+    /*padding: 0% 1% 0% 0%;*/
+    display: block;
+}
+
+#ImgLogotip {   
+ 
+    /*width: 32px;*/
+    height: 48px;   
+    border: none;
+}
+
+  /*Блок участника*/
+.ImgAvatar { 
+    float: left;
+    /*margin: 5px 5px 5px 0px;*/
+    width: 48px;
+    height: 48px;   
+}
+
+.ImgLogin { 
+    /*margin: 5px;*/
+    float: left;
+    width: 48px;
+    height: 48px;   
+    
+    max-height: 100%;
+    max-width:  100%;     
+    display: block;
+    
+}
+
+.DivChet {
+    float: right;
+    margin: 5px 5px 0px 5px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.DivAvatarName { 
+    float: left;
+    width: 795px;
+    margin: 5px 5px 5px 5px;
+    text-align: left;
+    font-size: 16px;
+ 
+}
+.IndexCreateDate{
+    margin: 0px 5px 0px 5px;
+    float: left;
+    font-size: 14px;
+}
+
+.DivText { 
+    float: left;   
+    margin: 0px 0px 0px 0px;
+    /*text-align: left;*/
+    font-size: 1em;
+    width: 100%;
+    display: block;
+
+}
+
+.DivAvatarRating{
+    position: relative;
+/*    float: left;*/
+    left: 63px;
+    top: 32px;
+}
+
+.ImgRating { 
+    position: relative;
+    margin-right: 5px;
+    padding: 0px;
+    float: left;  
+    width: 24px;
+    height: 24px;
+}
+
+
+/*Блок двойной картинки*/
+.DivDual { 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 496px;*/  /* при таком размере блок выстраивается в столбик*/
+    width: 895px;
+    padding: 19px;
+    
+    border: 1px #999999 solid;
+    /*border: 1px black solid;*/   
+    box-sizing: border-box; /*Задаем размер блока а не контента*/     
+    /*background-color:  #99ffff;*/
+    
+    overflow: hidden;
+    
+}
+
+.DivDual h2 {
+    font-size: 20px;
+}
+.DivDual h3 {
+    font-size: 16px;
+}
+
+/*Блок конкурсанта*/
+.DivDualBlock, .DivDualBlockR{ 
+    margin: 5px 0px 0px 0px;
+    float: left;
+    width: 422px;    
+    overflow: hidden;    
+    text-align: center;
+}
+
+/*Блок конкурсанта*/
+.DivDualBlockR { 
+    margin: 5px 0px 0px 10px;
+}
+
+/*Блок счетчика*/
+.DivDualBlock h1, .DivDualBlockR h1 {   
+    text-align: center;
+    font-size: 30px; 
+}
+
+
+/*Контейнер под картинку*/
+.DivDualImg{
+    
+    margin: 5px 0px 5px 0px;
+    
+    background-color:  #ffffff;
+    border: 1px black solid;   
+    /*box-sizing: border-box; Задаем размер блока а не контента */
+    /*box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);*/
+    
+    width: 422px;
+    height: 322px;
+
+    overflow: hidden;
+    /*padding: 10px;*/
+}
+
+/*Контейнер для рамки*/
+.DivDualImgBr{
+    
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    
+/*    background: url(../images/img1.png) no-repeat center center; 
+    background-size: contain;*/
+    
+    
+    /*background-color:  #000;*/
+    border: 1px #999999 solid;   
+    box-sizing: border-box;  
+   
+    overflow: hidden;
+ 
+
+
+/*    line-height: 296px;
+    text-align: center;    */
+    
+    
+}
+
+
+/*Контейнер под картинку*/
+.DivDualVideo{
+    
+    margin: 5px 0px 5px 0px;
+    
+    background-color:  #ffffff;
+    border: 1px black solid;   
+    /*box-sizing: border-box; Задаем размер блока а не контента */
+    /*box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);*/
+    
+    width: 422px;
+    height: 248px;
+
+    overflow: hidden;
+    /*padding: 10px;*/
+}
+/*Контейнер для рамки под видео*/
+.DivDualVideoBr{
+    
+    margin: 10px;
+    width: 400px;
+    height: 226px;
+    
+/*    background: url(../images/img1.png) no-repeat center center; 
+    background-size: contain;*/
+    
+    
+    /*background-color:  #000;*/
+    border: 1px #999999 solid;   
+    box-sizing: border-box;  
+   
+    overflow: hidden;
+ 
+
+
+/*    line-height: 296px;
+    text-align: center;    */
+    
+    
+}
+
+
+.DivDualImgBr img{
+    /*max-width: 100%;*/
+    max-height: 100%;
+    
+    height: 100%;
+    
+    /*min-width: 100%;*/
+    /*min-height: 100%;*/    
+    
+    vertical-align: middle;    
+}
+
+
+
+/*Картинка*/
+.ImgDual {    
+    
+    /*height: 300px;*/ 
+    max-height: 100%;
+    max-width: 100%;
+    
+    /*float: left;*/
+    /*padding: 1% 1% 1% 1%;*/
+    
+/*    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;    
+    
+    transition: all 1s ease;*/
+}
+
+
+/*.ImgDual:hover{
+
+    -moz-transform: scale (1.5);  эффект трансформации для Firefox до версии 16.0 
+    -webkit-transform: scale (1.5);  эффект трансформации для Chrome до версии 26.0, Safari, Android и iOS 
+    -o-transform: scale (1.5);  эффект трансформации для Opera до версии 12.10 
+    -ms-transform: scale (1.5);  эффект трансформации для IE 9.0 
+
+    transform: scale (1.5);  эффект трансформации для других браузеров 
+
+}*/
+
+
+/*Блок коментариев с подобными*/
+.DivDualOne { 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 496px;*/  /* при таком размере блок выстраивается в столбик*/
+    width: 895px;
+    /*padding: 19px;*/
+    
+    /*border: 1px #999999 solid;*/
+    /*border: 1px black solid;*/   
+    /*box-sizing: border-box; Задаем размер блока а не контента*/     
+    background-color:  #f1f1f1;   
+    overflow: hidden;
+    
+}
+
+
+
+/*Блок двойной картинки*/
+.DivOne { 
+/*    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;*/
+    /*width: 496px;*/  /* при таком размере блок выстраивается в столбик*/
+    float: left;
+    width: 438px;
+
+    padding: 19px 15px 19px 15px;
+    
+    border: 1px #999999 solid;
+    /*border: 1px black solid;*/   
+    box-sizing: border-box; /*Задаем размер блока а не контента*/     
+    /*background-color:  #99ffff;*/
+    
+    overflow: hidden;
+    
+}
+.DivOne:first-child {
+    margin-right: 19px;
+}
+
+.ILB_Title {
+    margin: 4px 0px 4px 0px;
+    padding: 0px;
+    float: left;
+    /*height: 150px;*/
+    width: 154px;
+    /*box-sizing: border-box;*/
+    /*border: 1px #999999 solid;*/
+}
+.ILB_TitleStr {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 20px;
+    /*box-sizing: border-box;*/
+    /*border: 1px #999999 solid;*/   
+    overflow: hidden;
+    
+}
+.ILB_TitleStrSpanLeft, .NLB_TitleStrSpanRight {
+    float: left;
+    padding: 2px 0px 0px 4px;
+    font-size: 12px;
+    height: 16px;
+    
+    color: #000;
+    
+}
+
+.ILB_ImgStrSpanLeft{
+    float: left;
+    margin: 0px 0px 0px 4px;
+    height: 16px;    
+}
+
+
+
+.ILB_User {
+    margin: 4px 4px 4px 0px;
+    padding: 0px;
+    float: left;
+    height: 90px;
+    width: 120px;    
+    box-sizing: content-box;
+    border: 1px #999999 solid;
+    text-align: center;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+.ILB_User img {
+    width: 100%;
+    height: 100%;
+    
+/*    max-width: 100%;
+    max-height: 100%;*/
+    vertical-align: middle;    
+}
+
+.ILB_Str {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 0px 0px;
+    border-top: 1px #999999 solid;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.ILB_Str h3{
+    font-size: 12px;
+ ;
+}
+
+
+.SpanComentUsr{
+    float: left;
+    margin: 0px 4px 0px 4px; 
+    font-size: 14px;
+    color: #000092;
+
+}
+
+.SpanComentDate {
+    float: right;
+    margin: 0px 0px 0px 4px; 
+    padding-top: 1px;
+    font-size: 12px; 
+    height: 14px;
+    color: #000092;
+}
+
+
+.DivTextComent{
+    margin: 4px 0px 4px 4px;
+    padding: 4px 0px 0px 0px;
+    width: 354px;
+    display: block;
+    float: left;
+    border-top: 1px #999999 dotted;
+    font-size: 14px; 
+    /*border: 1px #999999 solid;*/
+}
+
+.ButtonListNext {
+
+    margin: 10px 0px 0px 0px;
+    height: 32px;
+    width: 100%;
+    /*background: none;*/
+    /*background-size: contain;*/
+    font-size: 14px;
+
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;     
+   
+}
+ButtonListNext:hover {
+    border:1px solid #000;
+    cursor: pointer;
+}
+
+.LoaderNext {
+
+    margin: 10px 0px 0px 0px;
+    height: 32px;
+    width: 100%;
+    border:1px solid #000;
+    background: url(../images/NextLoader.gif) no-repeat center center;;
+    /*background-size: contain;*/
+    font-size: 14px;
+
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;     
+    display: none;
+       
+   
+}
+
+
+
+.ImgPlus {   
+    float: right;
+    /*margin: 5px;*/  
+    
+    
+    /*background: url(../images/plus2.png);  Путь к файлу с исходным рисунком  */
+    /*display: block;   Рисунок как блочный элемент */    
+    width: 32px;
+    height: 32px;   
+    }
+    
+/*    .ImgPlus:hover  {
+    background: url(../images/plus1.png);  Путь к файлу с заменяемым рисунком  
+   }*/
+
+.DualImage{
+    float: left;
+}
+
+
+header {
+    width: 100%;
+    height: 58px;
+    float: left;
+    /*background-color: beige;*/
+    padding: 4px 5px 0px 5px;
+
+    border-bottom: 1px #999999 solid;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: fixed;
+}
+
+
+.SpanHeadLeft {
+    float: left;
+    /*padding-right: 1%;*/
+    /*display: inline;*/
+}
+.SpanHeadRight {
+    float: right;
+    /*padding-right: 1%;*/
+    /*display: inline;*/
+}
+.SpanHeadRight ul{
+    float: right;
+}
+
+
+.MenuUserBlok {
+    
+    float: right;
+    padding-left: 5px;
+
+}
+.MenuUserBlok ul{
+    float: right;
+}
+
+
+.DivSoc {
+    float: left;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border-top: 1px #999999 solid;*/
+    text-align: center;
+    
+}
+
+
+
+/*header a#logo {
+	font-family: 'Obelix';
+	font-size: 1.7em;
+	color: white;
+	float: left;
+	width: 25%;
+	margin-left: 15%;
+}
+
+header a#logo span {
+	font-size: 1.3em;
+}
+
+header span#contact {
+	float: right;
+	width: 40%;
+	margin-right: 20%;
+	font-family: Times New Roman, sans-serif
+}
+
+header span#contact a {
+	color: white;
+	float: right;
+	margin-left: 10%;
+	font-size: 1.4em;
+	line-height: 50px;
+}
+
+header span#contact a:hover {
+	color: #e0e0e0;
+}
+
+nav {
+	width: 98%;
+	float: left;
+	background-color: #ffffff;
+	padding: 0 1% 0.7% 1%;
+}
+
+nav#fixed {
+	position: fixed;
+	top: 0;
+	background-color: rgba(255,255,255,0.87);
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+nav#fixed:hover {
+	background-color: #fff;
+}
+
+nav a:first-child, nav#fixed a:first-child {
+	margin-left: 12%; 
+	border-top: 5px solid #6accd7;
+}
+
+nav a, nav#fixed a {
+	border-top: 5px solid rgba(255,255,255,0);
+	padding: 0.5% 1% 0 1%;
+	float: left;
+	margin-right: 4%;
+	font-family: Times New Roman, sans-serif;
+	font-size: 1.4em;
+	color: #686869;
+}
+
+nav a:hover, nav#fixed a:hover {
+	border-top: 5px solid #6accd7;
+	color: #8c8c8c;
+}
+
+#slideMenu {
+	float: left;
+	color: rgba(255,255,255,0);
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ -------------------------------
+		Основная часть сайта
+----------------------------------
+
+#wrapper {
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+}
+
+ -------------------------------
+		Левая часть сайта
+----------------------------------
+
+#wrapper #leftCol {
+	width: 65%;
+	margin-right: 10%;
+	float: left;
+}
+
+#leftCol article {
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#leftCol article:last-child {margin-bottom: 0}
+
+#leftCol article img {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#leftCol article h2 {
+	font-size: 1.2em;
+	font-family: 'Obelix';
+	color: #3e3e3f;
+	width: 90%;
+	margin-left: 5%;
+	float: left;
+}
+
+#leftCol article p {
+	font-size: 1em;
+	font-family: Times New Roman, sans-serif;
+	color: #3e3e3f;
+	width: 86%;
+	margin: 2% 7%;
+	float: left;
+}
+
+#leftCol article a {color: #6accd7; font-size: 1.2em}
+#leftCol article a:hover {color: #647f82}
+
+#leftCol article span {
+	float: right;
+	color: #7c7c7c;
+}
+
+ -------------------------------
+		Правая часть сайта
+----------------------------------
+
+#wrapper #rightCol {
+	width: 25%;
+	float: left;
+}
+
+#rightCol .banner {
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#rightCol .banner:last-child {margin-bottom: 0}
+
+#rightCol .banner input#search {
+	float: left;
+	width: 88%;
+	font-size: 1em;
+	font-family: 'Obelix';
+	background-color: #d4d4d4;
+	border: 0;
+	outline: none;
+	padding: 3% 4%;
+	margin: 3% 2%;
+	color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#rightCol .banner span {
+	font-size: 1em;
+	font-family: 'Obelix';
+	color: #3e3e3f;
+	line-height: 450%;
+}*/
+
+/* -------------------------------
+		Футер сайта
+----------------------------------*/
+
+footer {
+    
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	padding: 10px;
+        
+        border-top: 1px #999999 solid;
+        
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+
+}
+
+
+.FooterSpan{
+    margin: 0px 5px 0px 5px;
+}
+
+.FooterSpan a {
+    text-decoration: none;
+}
+
+
+#ContactMessage {
+    
+    float: left;
+    width: 70%;
+    border: 1px #999999 solid;       
+    margin: 0px 0px 0px 0px;
+    padding: 10px 15px 10px 15px;
+    height: 100px;
+
+    font-size: 16px;
+    resize: none;
+         
+}
+
+.DivHr{
+    width: 100%;
+    margin: 0px 0px 20px 0px; 
+    
+}
+
+/*footer div#rights {
+	float: left;
+	font-family: 'Obelix';
+	color: white;
+	width: 45%;
+	margin-left: 5%;
+	line-height: 35px;
+}
+
+footer div#social {
+	float: right;
+	width: 45%;
+	margin-right: 5%;
+}
+
+footer div#social img {
+	float: right;
+	margin-right: 2%;
+}*/
+
+
+
+article{
+   
+    /*left: 200px;*/
+    width: 100%;
+    float: left;
+    background-color: #f1f1f1;
+    padding-top: 70px;
+    padding-bottom: 10px;  
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Адаптивность блоков*/
+h1 {
+    font-size: 1.7em;
+    text-align: center;
+}
+div.image_gallery {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    max-width: 90%; /* контейнер не превышает 90% ширины экрана */
+    min-width: 500px;
+    
+}
+/*img {
+    float: left;
+    max-width: 31%;
+    height: auto;
+    padding: 1%;  небольшие оступы для изображений 
+}*/
+
+
+
+/*Блок двойной картинки*/
+.ListBtl { 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 496px;*/  /* при таком размере блок выстраивается в столбик*/
+    width: 997px;
+    padding: 15px 15px 15px 15px;
+    
+    border: 1px #999999 solid;
+    /*border: 1px black solid;*/   
+    box-sizing: border-box; /*Задаем размер блока а не контента*/     
+    /*background-color:  #99ffff;*/
+    
+    overflow: hidden;
+    
+}
+.NLB_Str {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+    border-top: 1px #999999 solid;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+
+}
+.NLB_Chekbox {
+    float: left;
+    height: 92px;
+    margin: 0px 10px 0px 0px;
+    display: block;
+        
+}
+.NLB_Chekbox input {
+    margin: 31px 0px 0px 0px;
+}
+
+.NLB_User {
+    margin: 5px 0px 5px 5px;
+    padding: 0px;
+    float: left;
+/*    height: 150px;
+    width: 200px;*/
+    height: 90px;
+    width: 120px;    
+    box-sizing: content-box;
+    border: 1px #999999 solid;
+    text-align: center;
+    overflow: hidden;
+    /*line-height: 90px;*/
+    background-color: #000;
+    
+}
+
+.NLB_User img {
+    width: 100%;
+    height: 100%;
+    
+/*    max-width: 100%;
+    max-height: 100%;*/
+    vertical-align: middle;    
+}
+
+.NLB_User2 {
+    margin: 1% 0% 1% 1%;
+    padding: 0px;
+    float: left;
+    height: 150px;
+    width: 24%;
+    box-sizing: border-box;
+    border: 1px #999999 solid;
+  
+    background: url(../images/wait09.png) no-repeat center center; /* Параметры фона */
+    background-size: 50% auto;
+    text-align: center; /* Выравнивание блока по центру */    
+    cursor: pointer;
+    
+    font-size: 1.3em;
+    
+    overflow: hidden;
+}
+
+.NLB_User2:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+#Tags {
+    text-align: center;
+} 
+
+
+
+/* Стили кнопки загрузки аватрки */
+.file-upload {
+    
+    position: relative; /* Даем возможность делать позиционирование, внутри данного элемента */
+
+    float: right;
+    margin: 0px 0px 0px 0px;     
+    padding: 9px 18px;
+    
+    overflow: hidden; /* Все что выходит за пределы - скрываем */
+    width: 395px; /* Задаем ширину кнопки выбора файла */
+    height: 36px; /* Задаем высоту кнопки выбора файла */ 
+    /*background: #000;*/
+    border: 1px #999999 solid;     
+    /*color: #fff;*/
+    text-align: center;
+    display: block;
+}
+     
+.file-upload:hover {
+    border: 1px #000 solid;
+}
+
+.file-upload input[type="file"]{
+    display: none; /* Обязательно скрываем настоящий Input File */
+}
+
+#FileProfileUp {
+    display: none; /* Обязательно скрываем настоящий Input File */
+}
+
+.file-upload label {
+     /* Растягиваем label на всю возможную площадь блока .file-upload */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;
+    cursor: pointer;
+}
+.file-upload span {
+     line-height: 34px;  /*Делаем вертикальное выравнивание текста, который написан на кнопке */
+}
+
+#FileNamwProfileUp {
+    margin-top: 1px;
+    float: left;
+    width: 395px;
+}
+
+
+
+
+/* Стили кнопки загрузки картинок балов */
+.Btl_file-upload {
+    
+    position: relative; /* Даем возможность делать позиционирование, внутри данного элемента */
+
+    float: left;
+    margin: 0px 0px 0px 0px;     
+    padding: 9px 18px;
+    
+    overflow: hidden; /* Все что выходит за пределы - скрываем */
+    width: 100%; /* Задаем ширину кнопки выбора файла */
+    height: 36px; /* Задаем высоту кнопки выбора файла */ 
+    /*background: #000;*/
+    border: 1px #999999 solid;     
+    /*color: #fff;*/
+    text-align: center;
+    display: block;
+}
+     
+.Btl_file-upload:hover {
+    border: 1px #000 solid;
+}
+
+.Btl_file-upload input[type="file"]{
+    display: none; /* Обязательно скрываем настоящий Input File */
+}
+
+#FileProfileUp {
+    display: none; /* Обязательно скрываем настоящий Input File */
+}
+
+.Btl_file-upload label {
+     /* Растягиваем label на всю возможную площадь блока .file-upload */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;
+    cursor: pointer;
+}
+.Btl_file-upload span {
+     line-height: 34px;  /*Делаем вертикальное выравнивание текста, который написан на кнопке */
+}
+
+.FileNamwBtlUp1, #FileNamwBtlUp2  {
+    margin: 0px 0px 0px 0px;
+    float: left;
+    width: 100%;
+}
+
+.iframeYouTube {
+    /*position: absolute;*/
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    text-align: left;
+    width: 398px;
+    height: 224px;
+}

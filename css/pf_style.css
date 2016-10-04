@@ -1,0 +1,468 @@
+/*Стили для личного кабинета пользователя*/
+
+@charset "utf-8";
+
+.FormGroup {
+
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+
+    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 496px;*/  /* при таком размере блок выстраивается в столбик*/
+    width: 650px;
+
+    border: 1px #999999 solid;
+    /*border: 1px black solid;*/   
+    box-sizing: border-box; /*Задаем размер блока а не контента*/     
+    /*background-color:  #99ffff;*/
+    
+    overflow: hidden;
+      
+}
+
+.FormGroup h1 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 26px;
+}
+.FormGroup h2 {
+    margin: 0 0 15px 0;
+    /*letter-spacing: -1px;*/
+    font-size: 20px;
+}
+
+
+h3 {
+    font-size: 14px;  
+}
+
+.FormGroupTxt {
+    float: left;
+    margin: 10px 0 0 15px;
+    font-size: 12px;
+}
+
+
+.FormElements {
+    display: block;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+}
+
+.IconInput{
+    float: left;
+    width: 5%;
+    height: 36px;
+    padding-top: 10px;
+    text-align: center;
+    background: url(../images/search-glass1.png) no-repeat center center;  
+    background-size: contain;      
+    
+}
+
+
+.ColLabel {
+    float: left;  
+    width: 30%;
+    min-height: 1px;
+    padding: 10px 15px 0 15px;
+    font-size: 18px;
+       
+}
+.ColInput {
+    float: left;  
+    width: 70%;
+    border: 1px #999999 solid;
+}
+.ColInput:hover{
+    border: 1px #000 solid;
+}
+
+
+.ColImgLang {
+    margin: 0px 0px 0px 15px; 
+    float: left;  
+    height: 32px;
+/*    width: 48px;*/
+        
+}
+.ImgLang {
+    width: 32px;
+    height: 32px;
+}
+
+.ColInputLang {
+    float: left;  
+    width: 70%;
+    /*border: 1px #999999 solid;*/
+    padding: 8px 15px 10px 15px;
+}
+
+.FormElementsLang {
+    display: block;
+    overflow: hidden;
+
+}
+
+
+
+.ColInput  input{  
+    width: 100%; 
+    margin: 0;
+    padding: 10px 15px 10px 15px;
+    border: none;
+}
+
+.ColInput100 {
+    float: left;  
+    width: 100%;
+    border: 1px #999999 solid;;
+}
+.ColInput100:hover{
+    border: 1px #000 solid;
+}
+
+.ColInput100  input{  
+    width: 100%; 
+    margin: 0;
+    padding: 10px 15px 10px 15px;
+    border: none;
+}
+.DivAvatar200 {
+    padding: 7px;
+    width:200px;
+    height: 247px;
+    border: 1px #999999 solid;
+    float: left;
+    text-align: center;
+}
+
+.DivBrAvatar200 {
+    width: 100%;
+    height: 184px;
+    margin: 0px 0px 7px 0px;    
+    /*background-color:  #000;*/
+    border: 1px #999999 solid;   
+    box-sizing: border-box;  
+   
+    overflow: hidden;
+}
+.Avatar200 {
+    /*width: 100%;*/
+    
+    max-height: 100%;
+    max-width:  100%; 
+    /*height: 100%;*/
+    /*background: url(../ImgAvatar/nofoto.png) no-repeat center center;*/ 
+    /*background-size: contain;*/
+}
+
+#ButtonDownload {
+    float: left;
+    margin: 0 15px 0 15px;
+    padding: 0;
+    height: auto;
+    border: none;
+    display: block;
+    text-align: left;
+}
+
+
+.select {
+    width: 100%;
+    height: 36px;
+    padding: 0px 0px 0px 15px;
+    border: none; 
+}
+
+
+/*
+.ButtonProfile:hover {
+    background: #dcdcdc;
+    border:1px solid #000;
+}*/
+
+.Msg{
+    float: right;
+    min-height: 1px;
+    padding: 13px 15px 0 15px;
+    font-size: 16px;    
+    color: red;
+}
+
+.MsgL{
+    float: left;
+    min-height: 1px;
+    padding: 13px 15px 0 15px;
+    font-size: 16px;    
+    color: red;
+}
+
+.LabeRight {
+    float: right;   
+    font-size: 18px;
+    padding: 0px 0px 0px 15px;
+}
+
+#cboxInput {
+    height: auto;
+
+    font-size: 16px;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+
+/*.ButtonProfile{
+    float: right;
+    padding: 0 15px 0 15px;
+    height: 36px;
+    margin: 6px 0 0 15px;
+    border:1px solid #000;
+    font-family:Arial, Helvetica;
+    font-size: 16px; 
+    
+}*/
+
+/*.ButtonProfile {
+    float: right;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: inherit;
+    border: 1px solid #ffaa22;
+    padding: 9px 18px;
+    text-shadow: 1px 1px 0px #ffee66;
+    -webkit-box-shadow: inset 1px 1px 0px 0px #fff6af;
+    -moz-box-shadow: inset 1px 1px 0px 0px #fff6af;
+    box-shadow: inset 1px 1px 0px 0px #fff6af;
+    cursor: pointer;
+    color: #333333;
+    display: inline-block;
+    background: -webkit-linear-gradient(90deg, #ffab23 5%, #ffec64 100%);
+    background: -moz-linear-gradient(90deg, #ffab23 5%, #ffec64 100%);
+    background: -ms-linear-gradient(90deg, #ffab23 5%, #ffec64 100%);
+    background: linear-gradient(180deg, #ffec64 5%, #ffab23 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffec64",endColorstr="#ffab23");
+}
+
+.ButtonProfile:hover {
+    background: -webkit-linear-gradient(90deg, #ffec64 5%, #ffab23 100%);
+    background: -moz-linear-gradient(90deg, #ffec64 5%, #ffab23 100%);
+    background: -ms-linear-gradient(90deg, #ffec64 5%, #ffab23 100%);
+    background: linear-gradient(180deg, #ffab23 5%, #ffec64 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffab23",endColorstr="#ffec64");
+    border: 1px solid #ffaa22;
+}
+
+.ButtonProfile:active {
+    position:relative;
+    top: 1px;
+  
+}*/
+
+
+
+.ButtonProfile  {
+    margin-left: 0px;
+    float: right;
+    width: 200px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: inherit;
+/*    border: 1px solid #337fed;*/
+    padding: 9px 18px;
+/*    text-shadow: 1px 1px 0px #1570cd;
+    -webkit-box-shadow: inset 1px 1px 0px 0px #97c4fe;
+    -moz-box-shadow: inset 1px 1px 0px 0px #97c4fe;
+    box-shadow: inset 1px 1px 0px 0px #97c4fe;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+    background: -webkit-linear-gradient(90deg, #1e62d0 5%, #3d94f6 100%);
+    background: -moz-linear-gradient(90deg, #1e62d0 5%, #3d94f6 100%);
+    background: -ms-linear-gradient(90deg, #1e62d0 5%, #3d94f6 100%);
+    background: linear-gradient(180deg, #3d94f6 5%, #1e62d0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3d94f6",endColorstr="#1e62d0");*/
+
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;  
+}
+
+.ButtonProfile:hover {
+/*    background: -webkit-linear-gradient(90deg, #3d94f6 5%, #1e62d0 100%);
+    background: -moz-linear-gradient(90deg, #3d94f6 5%, #1e62d0 100%);
+    background: -ms-linear-gradient(90deg, #3d94f6 5%, #1e62d0 100%);
+    background: linear-gradient(180deg, #1e62d0 5%, #3d94f6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e62d0",endColorstr="#3d94f6");
+    border: 1px solid #337fed;*/
+    border:1px solid #000;
+    cursor: pointer;
+}
+
+.ButtonProfile :active {
+/*    position:relative;
+    top: 1px;*/
+}
+
+
+.ButtonListBtl {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    height: 32px;
+    /*background-color: #f1f1f1;*/
+    font-size: 14px;
+
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;     
+   
+}
+ButtonListBtl:hover {
+    border:1px solid #000;
+    cursor: pointer;
+}
+
+.ButtonPage {
+    /*float: left;*/
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    height: 32px;
+    min-width: 40px;
+    /*background-color: #f1f1f1;*/
+    font-size: 14px;
+    border: 1px #999999 solid;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;     
+    text-align: center;
+}
+.ButtonPage:hover {
+    border:1px solid #000;
+    color: #000092;
+    cursor: pointer;
+}
+
+.ButtonPageSelect {
+    /*float: left;*/
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    height: 32px;
+    min-width: 40px;
+    background-color: blue;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: 1px #999999 solid;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;     
+    text-align: center;
+}
+.ButtonPageSelect:hover {
+    border: 1px #999999 solid;
+    color: #FFFFFF;
+    /*cursor: pointer;*/
+}
+
+
+
+
+.SpanSpace {
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4px 9px 9px 9px;
+
+    margin: 0px 0px 0px 0px;
+    height: 32px;
+    min-width: 32px;
+    /*background-color: #f1f1f1;*/
+    font-size: 14px;
+    
+/*    border: 1px #999999 solid;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;     */
+    text-align: center;
+}
+
+
+
+
+.BtnDiv {
+    display: block;
+    float: right;
+    width: 394px;
+    height: auto;
+    padding: 5px 0px 0px 0px;
+    overflow: hidden;
+
+}
+
+#MsgTxt {
+    padding: 7px 0px 0px 0px;
+    width: 394px;
+    height: 34px;
+    float: right;
+    text-align: left;
+    color: red;
+    display: block;
+    overflow: hidden;
+
+}
+
+/*Кнопка вращения картинки*/
+.BtnRotateL, .BtnRotateR{
+    float: left;
+    border: 1px #999999 solid;
+    margin: 0px 0px 0px 0px;
+    width: 50%;
+    height: 36px;
+    background: url(../images/refreshL.png) no-repeat center center;
+    /*background-size: contain;*/
+    text-indent: -1000em;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;
+}
+
+
+/*Кнопка вращения картинки*/
+.BtnRotateR{
+    background: url(../images/refreshR.png) no-repeat center center;
+}
+
+.BtnRotateL:hover, .BtnRotateR:hover{
+    cursor: pointer;
+    border: 1px #000 solid;
+    /*background: url(../images/upload2.png) no-repeat center center;*/
+}
+
+
+/*Кнопки выбора типа контента*/
+.BtnTypeFoto, .BtnTypeVideo{
+    float: right;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    width: 36px;
+    height: 36px;
+    background: url(../images/TypeImg.png) no-repeat center center;
+    /*background-size: contain;*/
+    text-indent: -1000em;
+    
+}
+/*Кнопка вращения картинки*/
+.BtnTypeVideo{
+    background: url(../images/TypeVideo.png) no-repeat center center;
+}
+
+
+.BtnTypeFoto:hover, .BtnTypeVideo:hover{
+    cursor: pointer;
+    border: none;
+
+}

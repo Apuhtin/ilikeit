@@ -1,0 +1,1611 @@
+/*Стили для коментариев*/
+@charset "utf-8";
+
+
+.RowInputCom {
+    margin: 0px 0px 0px 4px;
+    float: left;  
+    width: 300px;
+    border: 1px #999999 solid;
+}
+
+.RowInputComm:hover {
+    border: 1px #000 solid;
+}
+
+
+.InputCom {
+    margin: 0px 0px 0px 4px;
+    padding: 4px 4px 0px 4px;
+    height: 48px;
+    width: 313px; 
+    font-size: 14px;
+    resize: none;
+    border: 1px #999999 solid;
+}
+
+.BtnSend{
+    float: right;
+    margin: 0px 0px 0px 4px;
+    border: none;
+    
+    width: 36px;
+    height: 48px;
+    background: url(../images/upload1.png) no-repeat center center;
+    /*background-size: contain;*/
+    text-indent: -1000em;
+    border: 1px #999999 solid;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .2) inset;
+    
+}
+
+.BtnSend:hover{
+    cursor: pointer;
+    background: url(../images/upload2.png) no-repeat center center;
+    border: 1px #000 solid;
+}
+
+.ILB_StrInCom {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 0px 0px;
+    border-top: 1px #999999 solid;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+ 
+@media screen and (max-width: 900px) { /* ipad */
+    
+.DivOne {
+    width: 755px;
+    
+}
+.DivDual {
+     width: 755px; 
+}
+
+.DivDualBlock{
+    width: 352px;
+}
+
+.DivDualBlockR {
+    width: 352px;
+}
+
+
+.InexDiv100 {
+    width: 100%;
+}
+
+.DivDualImgBr{
+    margin: 5px;
+    width: 340px;
+    height: 255px;
+}
+
+.DivDualImg {
+    width: 352px;
+    height: 267px;
+}
+
+.DivDualVideoBr{
+    margin: 5px;
+    width: 340px;
+    height: 192px;    
+}
+.iframeYouTube {
+    text-align: left;
+    width: 340px;
+    height: 192px;    
+}
+.DivDualVideo {
+    width: 352px;
+    height: 204px;
+}
+
+
+.DivDualOne {
+    width: 755px;
+}
+
+.DivOne:first-child {
+    margin-bottom: 20px;
+}
+
+.DivAvatarName {
+    width: 656px;
+}
+
+.DivTextComent {
+    margin: 4px 0px 4px 5px;
+    padding: 4px 0px 0px 0px;
+    width: 669px;
+}/*
+
+
+*/.BtnSend {
+    width: 48px;
+}
+
+.InputCom {
+    width: 613px;
+}
+
+.ILB_Title {
+    width: 470px;
+}
+
+.NLB_Title {
+    width: 437px;
+}
+
+.BtColInputLink {
+    width: 352px;
+}
+
+
+.BtnFile {
+    width: 277px;
+}
+.BtColInput100 {
+    width: 100%;
+}
+
+.BtHechTagInput {
+    width: 100%;
+}
+
+
+}
+
+ 
+@media screen and (max-width: 768px) { /* ipad */
+ 
+.DivOne {
+    float: none;
+    width: 100%;
+    padding: 15px 10px 15px 10px;    
+    
+}
+.DivDual {
+     width: 651px; 
+     padding: 10px;
+}
+
+.DivDualBlock{
+    width: 312px;
+}
+
+.DivDualBlockR {
+    margin: 5px 0px 0px 5px;
+    width: 312px;
+}
+
+
+.InexDiv100 {
+    width: 100%;
+}
+
+.DivDualImgBr{
+    margin: 5px;
+    width: 300px;
+    height: 225px;
+}
+
+.DivDualImg {
+    width: 312px;
+    height: 237px;
+}
+
+.DivDualVideoBr{
+    margin: 5px;
+    width: 300px;
+    height: 169px;    
+}
+.iframeYouTube {
+    text-align: left;
+    width: 300px;
+    height: 169px;    
+}
+.DivDualVideo {
+    width: 312px;
+    height: 181px;
+}
+
+
+
+.DivDualOne {
+/*    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;*/
+    /* width: 496px; */
+    width: 651px;
+    padding: 0px; 
+    /* border: 1px #999999 solid; */
+    /* border: 1px black solid; */
+/*    background-color: #f1f1f1;
+    overflow: hidden;*/
+}
+
+.DivOne:first-child {
+    margin-bottom: 10px;
+}
+
+.DivAvatarName {
+
+    width: 570px;
+/*    margin: 5px 5px 5px 5px;
+    text-align: left;
+    font-size: 16px;*/
+}
+.DivTextComent {
+    margin: 4px 0px 4px 5px;
+    padding: 4px 0px 0px 0px;
+    width: 575px;
+}
+
+
+.BtnSend {
+    width: 48px;
+}
+
+.InputCom {
+    margin: 0px 0px 0px 5px;
+/*    padding: 4px 4px 0px 4px;*/
+    /*height: 48px;*/
+    width: 520px;
+/*    font-size: 14px;
+    resize: none;
+    border: 1px #999999 solid;*/
+}
+.ILB_Title {
+    width: 376px;
+}
+
+.NLB_Title {
+/*    margin: 5px 5px 5px 15px;
+    padding: 0px;
+    float: left;*/
+    /* height: 150px; */
+    width: 351px;
+    /* box-sizing: border-box; */
+    /* border: 1px #999999 solid; */
+}
+
+.BtColInputLink {
+    /*margin: 5px 0px 5px 0px;*/
+    /*float: left;*/
+    width: 312px;
+/*    border: 1px #999999 solid;*/
+}
+
+
+.BtnFile {
+    padding: 7px 0px 0px 5px;
+    width: 238px;
+/*    margin: 0px;
+    float: left;
+    height: auto;
+    border: none;*/
+    font-size: 14px;
+}
+.BtColInput100 {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+/*    border: 1px #999999 solid;*/
+}
+
+.BtHechTagInput {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+    /*border: 1px #999999 solid;*/
+}
+.BtnFileUpload  {
+    background: url(../images/upload2.png) no-repeat center center;
+}
+
+.BtnFileDel  {
+    background: url(../images/cancel2.png) no-repeat center center;
+}
+
+}
+
+
+@media screen and (max-width: 660px) {
+
+header {
+    /*width: 100%;*/
+    height: 49px;
+/*    float: left;
+    background-color: beige;
+    padding: 4px 5px 0px 5px;*/
+    position: inherit;
+}    
+ 
+#DivLogotip {
+    height: 3px;
+
+}
+
+#ImgLogotip {
+    /* width: 32px; */
+    height: 40px;
+    border: none;
+}
+
+#ButtonLang {
+    margin-top: 2px;  
+}
+
+.ImgLogin {
+    /* margin: 5px; */
+    width: 40px;
+    height: 40px;
+}
+
+.LiInput {
+    padding: 2px 4px 2px 4px;
+
+}
+
+.LiInput a {
+    font-size: 14px;
+
+}
+
+article {
+    padding-top: 0px;
+
+}    
+    
+h1 {
+    font-size: 1.2em;
+}    
+
+.DivChet {
+    margin: 3px 5px 0px 5px;
+    font-size: 18px;
+}
+
+.DivPlus, .DivMinus, .ButtonPlus {
+
+    width: 24px;
+    height: 24px;
+
+}
+
+.ButtonPlus {
+    width: 24px;
+    height: 24px;   
+    padding-right: 0px; 
+}
+
+
+
+
+
+.BtColInput100 input {
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    text-align: center;
+    font-size: 1.2em;
+;
+}
+
+.DivOne {
+    float: none;
+    width: 100%;
+    padding: 15px 10px 15px 10px;    
+    
+}
+.DivDual {
+    margin-bottom: 10px; 
+    width: 538px; 
+    padding: 5px;
+}
+
+.DivDualBlock{
+    width: 260px;
+}
+
+.DivDualBlockR {
+    margin: 5px 0px 0px 5px;
+    width: 260px;
+}
+
+
+.InexDiv100 {
+    width: 100%;
+}
+
+.DivDualImgBr {
+    margin: 5px;
+    width: 248px;
+    height: 186px;
+}
+
+.DivDualImg {
+    width: 260px;
+    height: 198px;
+}
+
+.DivDualVideoBr{
+    margin: 5px;
+    width: 248px;
+    height: 140px;    
+}
+.iframeYouTube {
+    text-align: left;
+    width: 248px;
+    height: 140px;    
+}
+.DivDualVideo {
+    width: 260px;
+    height: 152px;
+}
+
+
+.DivDualOne {
+/*    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;*/
+    /* width: 496px; */
+    width: 538px;
+    padding: 0px; 
+    /* border: 1px #999999 solid; */
+    /* border: 1px black solid; */
+/*    background-color: #f1f1f1;
+    overflow: hidden;*/
+}
+
+.DivOne:first-child {
+    margin-bottom: 10px;
+}
+
+.DivAvatarName {
+
+    width: 468px;
+/*    margin: 5px 5px 5px 5px;
+    text-align: left;
+    font-size: 16px;*/
+}
+.DivTextComent {
+    margin: 4px 0px 4px 5px;
+    padding: 4px 0px 0px 0px;
+    width: 462px;
+}
+
+
+.BtnSend {
+    width: 48px;
+}
+
+.InputCom {
+    margin: 0px 0px 0px 5px;
+/*    padding: 4px 4px 0px 4px;*/
+    /*height: 48px;*/
+    width: 407px;
+/*    font-size: 14px;
+    resize: none;
+    border: 1px #999999 solid;*/
+}
+
+.ILB_Title {
+    width: 263px;
+}
+
+
+.NLB_Title {
+/*    margin: 5px 5px 5px 15px;
+    padding: 0px;
+    float: left;*/
+    /* height: 150px; */
+    width: 250px;
+    /* box-sizing: border-box; */
+    /* border: 1px #999999 solid; */
+}
+
+.BtColInputLink {
+    /*margin: 5px 0px 5px 0px;*/
+    /*float: left;*/
+    width: 260px;
+/*    border: 1px #999999 solid;*/
+}
+
+
+.BtnFile {
+    padding: 9px 0px 0px 5px;
+    width: 186px;
+/*    margin: 0px;
+    float: left;
+    height: auto;
+    border: none;*/
+    font-size: 10px;
+}
+.BtColInput100 {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+/*    border: 1px #999999 solid;*/
+}
+
+.BtHechTagInput {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+    /*border: 1px #999999 solid;*/
+}
+
+.ButtonProfile {
+    width: 150px;
+}
+
+.FormGroup {
+    width: 538px;
+}
+
+/*#ButtonDownload {
+    width: 270px;
+    margin: 0px 0px 0px 10px;
+
+}*/
+
+.file-upload, #FileNamwProfileUp {    
+    margin: 0px 0px 0px 10px;
+    width: 288px;  
+}
+
+
+
+
+.FormGroupTxt {
+    width: 270px;
+    margin: 10px 0 0 10px;
+    font-size: 10px;
+}
+
+#MsgTxt {
+    padding: 7px 0px 0px 0px;
+    width: 270px;
+    height: 34px;
+}
+
+.BtnDiv {
+    width: 270px;
+}
+
+.BtnFileUpload  {
+    background: url(../images/upload2.png) no-repeat center center;
+}
+
+.BtnFileDel  {
+    background: url(../images/cancel2.png) no-repeat center center;
+}
+
+.ColLabel {
+    width: 40%;
+}
+.ColInput {
+    width: 60%;
+}
+
+#ContactMessage {
+    width: 60%;
+}
+
+
+}
+
+ 
+@media screen and (max-width: 550px) {
+    
+header {
+
+    height: 48px;
+    position: inherit;
+}    
+ 
+#DivLogotip {
+    height: 40px;
+
+}
+
+#ImgLogotip {
+    /* width: 32px; */
+    height: 40px;
+    border: none;
+}
+
+.ImgLogin {
+    /* margin: 5px; */
+    width: 40px;
+    height: 40px;
+}
+
+.LiInput {
+    padding: 2px 4px 2px 4px;
+
+}
+
+.LiInput a {
+    font-size: 14px;
+
+}
+
+article {
+    padding-top: 0px;
+
+}    
+ 
+.DivOne {
+    float: none;
+    width: 100%;
+    padding: 15px 10px 15px 10px;    
+    
+}
+.DivDual {
+     width: 457px; 
+     padding: 5px;
+}
+
+.DivDualBlock{
+    margin: 0px;
+    width: 220px;
+}
+
+.DivDualBlockR {
+    margin: 0px 0px 0px 5px;
+    width: 220px;
+}
+
+
+.InexDiv100 {
+    width: 100%;
+}
+
+.DivDualImgBr {
+    margin: 0px;
+    border: none;
+    width: 220px;
+    height: 165px;
+}
+
+.DivDualImg {
+    width: 220px;
+    height: 165px;
+}
+
+
+.DivDualVideoBr{
+    margin: 0px;
+    border: none;
+    width: 220px;
+    height: 124px;    
+}
+.iframeYouTube {
+    text-align: left;
+    width: 220px;
+    height: 124px;    
+}
+.DivDualVideo {
+    width: 220px;
+    height: 124px;
+}
+
+
+.DivDualOne {
+    width: 457px;
+    padding: 0px; 
+
+}
+
+.DivOne:first-child {
+    margin-bottom: 10px;
+}
+
+.DivAvatarName {
+
+    width: 386px;
+
+}
+.DivTextComent {
+    margin: 4px 0px 4px 5px;
+    padding: 4px 0px 0px 0px;
+    width: 381px;
+}
+
+
+.BtnSend {
+    width: 48px;
+}
+
+.InputCom {
+    margin: 0px 0px 0px 5px;
+    width: 325px;
+}
+
+.ILB_Title {
+    width: 183px;
+}
+
+.NLB_Title {
+/*    margin: 5px 5px 5px 15px;
+    padding: 0px;
+    float: left;*/
+    /* height: 150px; */
+    width: 170px;
+    /* box-sizing: border-box; */
+    /* border: 1px #999999 solid; */
+}
+
+.BtColInputLink {
+    /*margin: 5px 0px 5px 0px;*/
+    /*float: left;*/
+    width: 220px;
+/*    border: 1px #999999 solid;*/
+}
+
+
+.BtnFile {
+    padding: 7px 0px 7px 5px;
+    width: 217px;
+/*    margn: 0px;
+    float: left;
+    height: auto;
+    border: none;*/
+    font-size: 12px;
+}
+.BtColInput100 {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+/*    border: 1px #999999 solid;*/
+}
+
+.BtHechTagInput {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+    /*border: 1px #999999 solid;*/
+}
+
+.ButtonProfile {
+    
+    width: 140px;
+    font-size: 14px;
+
+}
+
+.FormGroup {
+    width: 457px;
+}
+.DivAvatar200 {
+    margin-bottom: 10px;
+}
+
+.file-upload, #FileNamwProfileUp {    
+    margin: 0px 0px 0px 10px;
+    width: 207px;  
+}
+
+.FormGroupTxt {
+    width: 207px;
+    margin: 5px 0 0 10px;
+    font-size: 10px;
+}
+
+#MsgTxt {
+    padding: 5px 0px 0px 0px;
+    width: 207px;
+    height: 22px;
+    font-size: 12px;
+}
+
+.BtnDiv {
+    float: right;
+    width: 207px;
+}
+
+.MsgL {
+
+    padding: 10px 15px 0 15px;
+    font-size: 14px;
+
+}
+
+.SpanBtLeft {
+    float: left;
+    display: block;
+}
+
+/*.BtnFileUpload  {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-top: 1px #999999 solid;
+    border-right: 1px #999999 solid;
+    background: url(../images/upload2.png) no-repeat center center;
+    display: block;
+}*/
+
+/*.BtnFileDel  {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-top: 1px #999999 solid;
+    background: url(../images/cancel2.png) no-repeat center center;
+    display: block;
+}*/
+
+.Btl_file-upload span {
+    font-size: 14px;
+}
+
+.ButtonUpdate{
+    float: left;
+    width: 50%;
+    height: 36px;
+    display: block;
+}
+
+.ColLabel {
+    width: 40%;
+}
+.ColInput {
+    width: 60%;
+}
+
+.NLB_TitleStrSpanLeft {
+    /*margin: 5px 0px 0px 0px;*/
+    float: left;
+    font-size: 10px;
+}
+
+.NLB_TitleStrSpanRight {
+    /*margin: 5px 0px 0px 0px;*/
+    font-size: 10px;
+}
+
+.DivDual h3 {
+    font-size: 14px;
+}
+
+
+#NLB_ImgChet, #NLB_Chet {
+    visibility: hidden;
+}
+
+
+}
+
+
+@media screen and (max-width: 460px) {
+    
+header {
+
+    height: 48px;
+    position: inherit;
+}    
+ 
+#DivLogotip {
+    width: 40px;
+    height: 40px;
+    background: url(../images/Logotip19_mini.png) no-repeat center center;
+    background-size: contain;
+}
+
+#ImgLogotip {
+    visibility: hidden;
+}
+
+.ImgLogin {
+    width: 40px;
+    height: 40px;
+}
+
+.LiInput {
+    padding: 2px 4px 2px 4px;
+
+}
+
+.LiInput a {
+    font-size: 14px;
+
+}
+
+article {
+    padding-top: 0px;
+
+}    
+ 
+.DivOne {
+    float: none;
+    width: 100%;
+    padding: 15px 10px 15px 10px;    
+    
+}
+.DivDual {
+     width: 338px; 
+     padding: 5px;
+}
+
+.DivDualBlock{
+    margin: 0px;
+    width: 160px;
+}
+
+.DivDualBlockR {
+    margin: 0px 0px 0px 5px;
+    width: 160px;
+}
+
+.DivChet {
+    margin: 3px 5px 0px 5px;
+    font-size: 16px;
+}
+
+
+.DivPlus, .DivMinus {
+    width: 22px;
+    height: 22px;
+    margin: 0px;
+}
+
+.ButtonPlus {
+    width: 22px;
+    height: 22px;   
+    padding: 0px; 
+    margin: 0px;
+}
+
+.InexDiv100 {
+    width: 100%;
+}
+
+.DivDualImgBr {
+    margin: 0px;
+    border: none;
+    width: 160px;
+    height: 120px;
+}
+
+.DivDualImg {
+    width: 160px;
+    height: 120px;
+}
+
+.DivDualVideoBr{
+    margin: 0px;
+    border: none;
+    width: 160px;
+    height: 90px;    
+}
+.iframeYouTube {
+    text-align: left;
+    width: 160px;
+    height: 90px;    
+}
+.DivDualVideo {
+    width: 160px;
+    height: 90px;
+}
+
+.DivDualOne {
+    width: 338px;
+    padding: 0px; 
+
+}
+
+.DivOne:first-child {
+    margin-bottom: 10px;
+}
+
+.DivAvatarName {
+    width: 267px;
+}
+.DivTextComent {
+    margin: 4px 0px 4px 5px;
+    padding: 4px 0px 0px 0px;
+    width: 262px;
+}
+
+
+.BtnSend {
+    width: 48px;
+}
+
+.InputCom {
+    margin: 0px 0px 0px 5px;
+    width: 207px;
+}
+
+.ILB_Title {
+    width: 183px;
+   
+}
+
+.NLB_Title {
+    margin: 5px 5px 5px 5px;
+    width: 314px;
+}
+
+.BtColInputLink {
+    width: 160px;
+}
+
+
+.BtnFile {
+    padding: 7px 0px 7px 5px;
+    width: 217px;
+    font-size: 12px;
+}
+.BtColInput100 {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+/*    border: 1px #999999 solid;*/
+}
+
+.BtHechTagInput {
+    width: 100%;
+}
+
+.ButtonProfile {
+
+    width: 140px;
+    font-size: 14px;
+
+}
+
+.FormGroup {
+    width: 338px;
+}
+/*
+#ButtonDownload {
+    float: none;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+
+}*/
+
+.file-upload {    
+    float: left;
+    width: 220px;
+    margin-left: 39px;
+    
+}
+
+#FileNamwProfileUp {    
+    float: left;
+    width: 220px;
+    margin-left: 39px;
+    margin-bottom: 10px;
+ 
+}
+
+.file-upload span {
+    font-size: 14px;
+}
+.Btl_file-upload span {
+    font-size: 14px;
+}
+
+
+.FormGroupTxt {
+    float: none;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 10px;
+}
+
+#MsgTxt {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 220px;
+    height: 22px;
+    font-size: 12px;
+}
+
+.BtnDiv {
+    width: 207px;
+}
+
+.MsgL {
+
+    padding: 10px 15px 0 15px;
+    font-size: 14px;
+
+}
+
+.SpanBtLeft {
+    float: left;
+    display: block;
+}
+
+/*.BtnFileUpload  {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-top: 1px #999999 solid;
+    border-right: 1px #999999 solid;
+    background: url(../images/upload2.png) no-repeat center center;
+    display: block;
+}
+
+.BtnFileDel  {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-top: 1px #999999 solid;
+    background: url(../images/cancel2.png) no-repeat center center;
+    display: block;
+}*/
+
+
+.ButtonUpdate{
+    float: left;
+    width: 50%;
+    height: 36px;
+    display: block;
+}
+
+.ColLabel {
+    padding-left: 0px;
+    width: 40%;
+    font-size: 14px;
+}
+.ColInput {
+    width: 60%;
+}
+.ColInput input {   
+    font-size: 14px;
+}
+
+.select {
+    font-size: 14px;
+}
+
+.ColInput100 input {
+    font-size: 14px;
+}
+
+
+.FormGroup h1 {
+    font-size: 24px;
+}
+
+
+.NLB_TitleStrSpanLeft {
+    float: left;
+    font-size: 10px;
+}
+
+.NLB_TitleStrSpanRight {
+    font-size: 10px;
+}
+
+.DivDual h3 {
+    font-size: 14px;
+}
+
+
+#NLB_ImgChet, #NLB_Chet {
+    visibility: visible;
+}
+
+.ILB_User {
+    width: 156px;
+    height: 117px;
+    float: left;
+    margin: 4px 2px 4px 0px;
+    box-sizing: border-box;
+
+}
+
+.ILB_TitleStr {
+    height: 16px;
+    padding: 0;
+}
+
+.ILB_TitleStrSpanLeft, .NLB_TitleStrSpanRight {
+    font-size: 12px;
+}
+.ILB_Str h3 {
+    font-size: 12px;
+}
+
+.NLB_User {
+    margin: 5px 2px 5px 2px;
+    height: 117px;
+    width: 157px;
+
+}
+.DivAvatar200 {
+    width: 220px;
+    height: 265px;
+    float: none;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.FormGroup h2 {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 340px) {
+    
+header {
+
+    height: 48px;
+    position: inherit;
+}    
+ 
+#DivLogotip {
+    margin-top: 2px;
+    width: 36px;
+    height: 36px;
+    background: url(../images/Logotip19_mini.png) no-repeat center center;
+    background-size: contain;
+}
+
+#ButtonLang {    
+    margin-top: 4px; 
+    width: 32px;
+    height: 32px;
+    padding: 0px 0px 0px 0px;    
+    font-size: 14px;     
+}
+
+.ColInputLang {
+    font-size: 14px;
+}
+
+#ImgLogotip {
+    visibility: hidden;
+}
+
+.ImgLogin {
+    margin-top: 4px; 
+    width: 32px;
+    height: 32px;
+}
+
+.LiInput {
+    padding: 2px 4px 2px 4px;
+
+}
+
+.LiInput a {
+    font-size: 14px;
+
+}
+
+article {
+    padding-top: 0px;
+
+}    
+ 
+.DivOne {
+    float: none;
+    width: 100%;
+    padding: 15px 10px 15px 10px;    
+    
+}
+.DivDual {
+     width: 308px; 
+     padding: 2px;
+}
+
+.DivDualBlock{
+    margin: 0px;
+    width: 148px;
+}
+
+.DivDualBlockR {
+    margin: 0px 0px 0px 5px;
+    width: 148px;
+}
+
+.DivChet {
+    margin: 3px 5px 0px 5px;
+    font-size: 16px;
+}
+
+
+.DivPlus, .DivMinus {
+    width: 22px;
+    height: 22px;
+    margin: 0px;
+}
+
+
+
+.InexDiv100 {
+    width: 100%;
+}
+
+.DivDualImgBr {
+    margin: 0px;
+    border: none;
+    width: 148px;
+    height: 111px;
+}
+
+.DivDualImg {
+    width: 148px;
+    height: 111px;
+}
+
+.DivDualVideoBr{
+    margin: 0px;
+    border: none;
+    width: 148px;
+    height: 83px;    
+}
+.iframeYouTube {
+    text-align: left;
+    width: 148px;
+    height: 83px;    
+}
+.DivDualVideo {
+    width: 148px;
+    height: 83px;
+}
+
+
+.DivDualOne {
+    width: 308px;
+    padding: 0px; 
+
+}
+
+.DivOne:first-child {
+    margin-bottom: 10px;
+}
+
+.DivAvatarName {
+    width: 242px;
+}
+.DivTextComent {
+    margin: 4px 0px 4px 5px;
+    padding: 4px 0px 0px 0px;
+    width: 232px;
+}
+
+
+.BtnSend {
+    width: 48px;
+}
+
+.InputCom {
+    margin: 0px 0px 0px 5px;
+    width: 177px;
+}
+
+.ILB_Title {
+    width: 284px;
+   
+}
+
+.NLB_Title {
+    margin: 5px 5px 5px 5px;
+    width: 287px;
+}
+
+.BtColInputLink {
+    width: 148px;
+}
+
+
+.BtnFile {
+    padding: 7px 0px 7px 5px;
+    width: 217px;
+    font-size: 12px;
+}
+.BtColInput100 {
+/*    margin: 5px 0px 5px 0px;
+    float: left;*/
+    width: 100%;
+/*    border: 1px #999999 solid;*/
+}
+
+.BtHechTagInput {
+    width: 100%;
+}
+
+.ButtonProfile {
+
+    width: 140px;
+    font-size: 14px;
+
+}
+
+.FormGroup {
+    width: 308px;
+    padding: 15px;
+}
+
+/*#ButtonDownload {
+    float: none;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+
+}*/
+
+.file-upload {    
+    float: left;
+    width: 220px;
+    margin-left: 29px;
+    
+}
+
+#FileNamwProfileUp {    
+    float: left;
+    width: 220px;
+    margin-left: 29px;
+
+ 
+}
+
+
+.FormGroupTxt {
+    float: none;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: 10px;
+}
+
+#MsgTxt {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 220px;
+    height: 22px;
+    font-size: 12px;
+}
+
+.BtnDiv {
+    width: 207px;
+}
+
+.MsgL {
+
+    padding: 10px 15px 0 15px;
+    font-size: 14px;
+
+}
+
+.SpanBtLeft {
+    float: left;
+    display: block;
+}
+
+/*.BtnFileUpload  {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+    
+    background: url(../images/upload2.png) no-repeat center center;
+    display: block;
+}*/
+
+/*.BtnFileDel  {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-top: 1px #999999 solid;
+    background: url(../images/cancel2.png) no-repeat center center;
+    display: block;
+}*/
+
+
+.ButtonUpdate{
+    float: left;
+    width: 50%;
+    height: 36px;
+    display: block;
+}
+
+.ColLabel {
+    padding-left: 0px;
+    width: 40%;
+    font-size: 14px;
+}
+.ColInput {
+    width: 60%;
+}
+.ColInput input {   
+    font-size: 14px;
+}
+
+.select {
+    font-size: 14px;
+}
+
+.ColInput100 input {
+    font-size: 14px;
+}
+
+
+.NLB_TitleStrSpanLeft {
+    float: left;
+    font-size: 10px;
+}
+
+.NLB_TitleStrSpanRight {
+    font-size: 10px;
+}
+
+.DivDual h3 {
+    font-size: 14px;
+}
+
+
+#NLB_ImgChet, #NLB_Chet {
+    visibility: visible;
+}
+
+.ILB_User {
+    width: 140px;
+    height: 105px;
+    float: left;
+    margin: 4px 2px 4px 1px;
+    box-sizing: border-box;
+
+}
+
+.ILB_TitleStr {
+    height: 16px;
+    padding: 0;
+}
+
+.ILB_TitleStrSpanLeft, .NLB_TitleStrSpanRight {
+    font-size: 12px;
+}
+.ILB_Str h3 {
+    font-size: 12px;
+}
+
+.NLB_User {
+    margin: 5px 2px 5px 2px;
+    height: 108px;
+    width: 144px;
+
+}
+
+.FormGroup h2 {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+}

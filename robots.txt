@@ -1,0 +1,18 @@
+User-agent: YandexBot
+Disallow: /?mode=profilef
+Disallow: /?mode=listuserbattles
+Disallow: /?mode=createf
+Sitemap: http://ilikeit.one/Sitemap.xml
+Host: ilikeit.one
+
+User-agent: Googlebot
+Disallow: /?mode=profilef
+Disallow: /?mode=listuserbattles
+Disallow: /?mode=createf
+Sitemap: http://ilikeit.one/Sitemap.xml
+
+User-agent: *
+Disallow: /?mode=profilef
+Disallow: /?mode=listuserbattles
+Disallow: /?mode=createf
+Sitemap: http://ilikeit.one/Sitemap.xml

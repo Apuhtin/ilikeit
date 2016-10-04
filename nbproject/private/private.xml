@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="28">
+        <file>
+            <url>funct/functHTML.php</url>
+            <bookmark id="27">
+                <name/>
+                <line>574</line>
+                <key/>
+            </bookmark>
+            <bookmark id="28">
+                <name/>
+                <line>1062</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>CreateBattle_f.php</url>
+            <bookmark id="6">
+                <name/>
+                <line>30</line>
+                <key/>
+            </bookmark>
+            <bookmark id="8">
+                <name/>
+                <line>30</line>
+                <key/>
+            </bookmark>
+            <bookmark id="7">
+                <name/>
+                <line>53</line>
+                <key/>
+            </bookmark>
+            <bookmark id="5">
+                <name/>
+                <line>117</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>funct/functBD.php</url>
+            <bookmark id="9">
+                <name/>
+                <line>263</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/WebServers/home/Batl/www/funct/functHTML.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/funct/funct.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/Lang/Ru/TPL/CreateBattle.tpl</file>
+            <file>file:/C:/WebServers/home/Batl/www/css/style.css</file>
+            <file>file:/C:/WebServers/home/Batl/www/index.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/profile_f.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/index_p.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/css/com_style.css</file>
+            <file>file:/C:/WebServers/home/Batl/www/CreateBattle.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/css/pf_style.css</file>
+            <file>file:/C:/WebServers/home/Batl/www/index_f.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/CreateBattle_f.php</file>
+            <file>file:/C:/WebServers/home/Batl/www/Lang/En/TPL/CreateBattle.tpl</file>
+        </group>
+    </open-files>
+</project-private>
